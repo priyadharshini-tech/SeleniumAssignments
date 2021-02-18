@@ -22,13 +22,19 @@ public class Factorial {
 	public static void main(String[] args) {
 
 		// Declare your input as 5
+               
+                int number=5;
+   
+
 		
 		
 		// Declare an integer variable fact as 1
-		
+		 int i,fact=1;
 
 		// Iterate from 1 to your input (tip: using loop concept)
-		
+		 for(i=1;i<number;i++){
+                    fact=fact*i;
+                 }
 
 			// Within the loop: Multiply fact with the iterator variable (Tip: Assign it to the 'fact' variable)
 			
@@ -37,6 +43,7 @@ public class Factorial {
 		
 
 		// Print factorial (fact)
+                System.out.println("factorial of" + number +"is:" + fact):
 	
 	}
 
